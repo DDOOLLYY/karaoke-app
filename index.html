@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Karaoke App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎤 Karaoke App</h1>
+
+    <!-- Search Bar -->
+    <input type="text" id="songInput" placeholder="Search for a song..." />
+    <button onclick="searchSong()">Search</button>
+
+    <!-- Spotify Player -->
+    <div id="player"></div>
+
+    <!-- Lyrics Display -->
+    <div class="lyrics-container">
+      <div id="lyrics"></div>
+    </div>
+  </div>
+
+  <!-- Spotify Web Playback SDK -->
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
