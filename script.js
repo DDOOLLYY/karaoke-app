@@ -8,7 +8,7 @@ window.onSpotifyWebPlaybackSDKReady = () => {
     getOAuthToken: (cb) => {
       // You'll get this token from Spotify Developer Dashboard
       // For now, we'll use a placeholder
-      cb('YOUR_ACCESS_TOKEN_HERE');
+      cb('BQASyJBKKg_u5o3wjwV2tf_1BNTnwMlPcQHqyu7U4bYGJWAUpKFm6i5Tamnrsp7l2AtjbSVcVc6JDtULyAFKE46X1DnGeGINL9v8obYlJRON__Xf80fiEorlCmk17HPXoYou3yZkXLDid1PlWUxknZRPkAwzUAGJyKNiD-FUXNBES4khDJqETxWYpdrS8JlTxY5ibCIevH_Y3B3hJtUFmTfAo5NAdGRX7HaC-M9xs17l4KoRgG093o9BvX4-7mP84s_VkSAPEOT5mB1EljJhyQm8bBi4akzfVJ1rJfqjJX2FkchbFGsM');
     },
     volume: 0.5
   });
